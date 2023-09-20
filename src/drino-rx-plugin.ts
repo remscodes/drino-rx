@@ -1,7 +1,7 @@
 import type { DrinoPlugin, PluginTools, RequestController } from 'drino';
 import { from } from 'rxjs';
 
-export const drinoRx: DrinoPlugin = {
+const drinoRx: DrinoPlugin = {
   id: 'drino-rx',
   run: ({ reqCtrlPrototype }: PluginTools) => {
     Object.defineProperty(reqCtrlPrototype, 'toObservable', {
@@ -13,3 +13,5 @@ export const drinoRx: DrinoPlugin = {
     });
   }
 };
+
+export default drinoRx;

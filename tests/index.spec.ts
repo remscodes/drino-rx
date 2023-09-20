@@ -6,7 +6,7 @@ import drino from 'drino';
 import { map, tap } from 'rxjs';
 import type { SinonSandbox, SinonStub } from 'sinon';
 import sinon from 'sinon';
-import { drinoRx } from '../src';
+import drinoRx from '../src';
 
 describe('Drino RxJS plugin', () => {
 

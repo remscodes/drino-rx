@@ -1,1 +1,1 @@
-export { drinoRx } from './drino-rx-plugin';
+export { default } from './drino-rx-plugin';
