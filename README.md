@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Drino Rx</h1>
-    <p>Plugin to use Drino with RxJS</p>
+    <p>Plugin to use RxJS in Drino</p>
 </div>
 
 <div align="center">
