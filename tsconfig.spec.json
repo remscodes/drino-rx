@@ -10,8 +10,7 @@
     "allowJs": true
   },
   "include": [
-    "tests",
-    "typings"
+    "tests"
   ],
   "exclude": [
     "node_modules",
