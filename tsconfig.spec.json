@@ -4,12 +4,13 @@
     "module": "CommonJS",
     "types": [
       "mocha",
+      "sinon",
       "node"
     ],
     "allowJs": true
   },
   "include": [
-    "test",
+    "tests",
     "typings"
   ],
   "exclude": [
