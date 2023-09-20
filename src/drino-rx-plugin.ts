@@ -1,5 +1,6 @@
 import type { DrinoPlugin, PluginTools, RequestController } from 'drino';
 import { from } from 'rxjs';
+import './models/drino-rx.model';
 
 const drinoRx: DrinoPlugin = {
   id: 'drino-rx',

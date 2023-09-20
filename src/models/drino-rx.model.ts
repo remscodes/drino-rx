@@ -2,7 +2,7 @@ import type { Observable } from 'rxjs';
 
 declare module 'drino' {
 
-  declare class RequestController<Resource> {
+  class RequestController<Resource> {
     /**
      * Convert Drino RequestController to RxJS Observable.
      */

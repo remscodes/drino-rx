@@ -1,5 +1,3 @@
-/// <reference types="../typing/drino-rx" />
-
 import { expect } from '@esm-bundle/chai';
 import type { RequestController } from 'drino';
 import drino from 'drino';
