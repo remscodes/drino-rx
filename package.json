@@ -1,7 +1,7 @@
 {
   "name": "drino-rx",
-  "version": "0.0.0",
-  "description": "Plugin to use Drino with RxJS",
+  "version": "1.0.0",
+  "description": "Plugin to use RxJS in Drino",
   "license": "MIT",
   "author": {
     "name": "Rémy Abitbol",
@@ -9,11 +9,10 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "npm run start-web-runner",
+    "test": "web-test-runner",
     "types": "tsc --noEmit",
     "types:spec": "npm run types -- -p ./tsconfig.spec.json",
     "types:all": "npm run types & npm run types:spec",
-    "start-web-runner": "web-test-runner",
     "rm-dist": "node ./scripts/rm-dist.cjs",
     "playwright": "node ./node_modules/.pnpm/playwright@1.38.0/node_modules/playwright/cli.js",
     "install-playwright": "npm run playwright -- install --with-deps",
